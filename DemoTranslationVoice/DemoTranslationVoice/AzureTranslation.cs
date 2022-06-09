@@ -5,8 +5,8 @@ namespace DemoTranslationVoice
 {
     public class AzureTranslation
     {
-        private readonly string speechKey = "60d0ca6bad7d4deebcf3d623148e595b";
-        private readonly string speechreRegion = "westus2";
+        private readonly string speechKey = "your-speech-key";
+        private readonly string speechreRegion = "your-speech-region";
 
         public async Task TraslateSpeechAsync()
         {
